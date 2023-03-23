@@ -1,0 +1,58 @@
+#div-container{
+    width: 50%;
+    /*sombras*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /*Centrar el contenido*/
+    margin: auto;
+    display: flex;
+}
+
+#div-image{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fbcf34;
+  padding: 20px;
+    width: 34%;
+}
+
+#div-form{
+    width: 66%;
+    padding: 15px;
+}
+
+input{
+    display: block;
+    border-style: none none solid none;
+    border-width: 0 0 1px 0;
+    border-color: #ccc;
+    padding: 15px;
+}
+
+#img-audifnos{
+    width:100%;
+}
+
+.text-100{
+    width: 100%;
+    box-sizing: border-box;
+   
+}
+
+#pagar-reservacion{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    background-color: rgb(2, 185, 2);
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-style: solid;
+}
+
+input:focus {
+    border-bottom: 5px solid #fbcf34;
+    outline: none;
+  }
+
+.centrado{
+    text-align: center;
+}
